@@ -1,0 +1,21 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "Launch ArmsDatabase",
+			"request": "launch",
+			"mainClass": "com.cs2810.Arms.Model.ArmsDatabase",
+			"projectName": "arms"
+		},
+		{
+			"type": "java",
+			"name": "Spring Boot-ArmsApplication<arms>",
+			"request": "launch",
+			"cwd": "${workspaceFolder}",
+			"mainClass": "com.cs2810.Arms.ArmsApplication",
+			"projectName": "arms",
+			"args": "",
+			"envFile": "${workspaceFolder}/.env"
+		}
+	]
+}

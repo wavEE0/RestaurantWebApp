@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+
+<title>Basket</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link th:rel="stylesheet"
+    th:href="@{/webjars/bootstrap/css/bootstrap.min.css} " />
+<link th:rel="stylesheet" th:href="@{/css/main.css}" />
+<link th:rel="stylesheet" th:href="@{/css/style.css}" />
+
+<script src="Basket.js"></script>
+
+<style>
+</style>
+</head>
+
+<body>
+
+    <nav class="nav-header navbar navbar-expand-xl navbar-light">
+        <div class="container-fluid">
+            <img th:src="@{images/logo.png}"
+                class="logo d-inline-block align-text-top" /> <a
+                class="navbar-brand" href="">OAXACA</a>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link disabled" href=""
+                        tabindex="-1" aria-disabled="true">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/order">Order</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                        href="/order-tracking">Track</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/login">Staff</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<h1 id="top">Basket</h1>
+<!-- <div id="heading"><ul id="productList">Product list</ul><ul id="quantity">Quantity</ul><ul id="price">Price</ul></div> -->
+
+<div class="main">
+  <div class="product_info">
+    <div class="list_item" id="1"> 
+      <img src="burger.png" alt="Pic1" id="image1" class="image">
+      <p id="details1" class="details">Bacon Ranch Grilled Chicken Salad</p>
+      <div class="quantity" id="quantity1"><div class="value_center"><button class="decrement_button">-</button><span class="quantity121">1</span><button class="increment_button">+</button></div></div>
+      <div class="unit_price" id="unit_price1"><div class="value_center">$<span class="total_price121">1.60</span></div></div>
+      <div class="cross" id="cross1"><div class="value_center"><button class="remove_button">X</button></div></div>
+    </div>
+    <div class="list_item" id="2">
+      <img src="burger.png" alt="Pic1" id="image1" class="image">
+      <p id="details1" class="details">Bacon Ranch Grilled Chicken Salad</p>
+      <div class="quantity" id="quantity1"><div class="value_center"><button class="decrement_button">-</button><span class="quantity121">1</span><button class="increment_button">+</button></div></div>
+      <div class="unit_price" id="unit_price1"><div class="value_center">$<span class="total_price121">1.60</span></div></div>
+      <div class="cross" id="cross1"><div class="value_center"><button class="remove_button">X</button></div></div>
+    </div> 
+     <div class="list_item" id="3"> 
+      <img src="burger.png" alt="Pic1" id="image1" class="image">
+      <p id="details1" class="details">Bacon Ranch Grilled Chicken Salad</p>
+      <div class="quantity" id="quantity1"><div class="value_center"><button class="decrement_button">-</button><span class="quantity121">1</span><button class="increment_button">+</button></div></div>
+      <div class="unit_price" id="unit_price1"><div class="value_center">$<span class="total_price121">1.60</span></div></div>
+      <div class="cross" id="cross1"><div class="value_center"><button class="remove_button">X</button></div></div>
+    </div>
+  </div>
+  <div class="checkout_info">
+    <div id="charges">
+      <ul><li id="LI1">Items subtotal:</li><li id="LI2">$</li><li class="subtotal" id="LI3">0</li></ul>
+      <ul><li id="LI1">Delivery fee:</li><li id="LI2">$</li><li id="LI3">1</li></ul>
+      <ul><li id="LI1">Tax and fees:</li><li id="LI2">$</li><li id="LI3">2.5</li></ul>
+      <ul id="total"><li id="LI1">Total:</li><li id="LI2" >$</li><li class="Total_after_all_fees">0</li></ul>
+    </div>
+    <button id="checkout_button111">Proceed to checkout</button>
+  </div>
+</div>
+<div id="popup" class="popup_menu">
+  <button id="cross101">x</button>
+  <p>Name on Card:</p>
+  <input type="text">
+  <p>Card Number: </p>
+  <input type="text">
+  <p>Expiry:</p><input type="text"><p>CVC: </p><input type="text">
+</div>
+<!-- <div class="footer">
+  <p class="footer">Oaxaca is a great resteraunt that everyone loves</p>
+  <p class="footer">contact us at:</p>
+  <p class="footer">07555 644 or temp@gmail.com</p>
+</div> -->
+
+</body>
+</html>

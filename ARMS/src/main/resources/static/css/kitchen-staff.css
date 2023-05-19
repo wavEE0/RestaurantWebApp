@@ -1,0 +1,18 @@
+h2 {
+	font-family: Lucida Console;
+	font-weight: bold;
+	font-style: oblique;
+	text-align: center;
+	font-size: 30px;
+	color: #FF6663;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px
+		0 #000;
+}
+
+.confirmed li {
+	padding: 5px;
+}
+
+.order .button {
+	
+}

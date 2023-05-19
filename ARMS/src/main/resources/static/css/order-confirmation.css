@@ -1,0 +1,40 @@
+.alert {
+	width: 60%;
+	min-width: 600px;
+	margin: 10px 20%;
+	border: 3px solid #0a4f3d;
+}
+
+.alert button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	opacity: 80%;
+}
+
+.order {
+	max-width: 80vw;
+	width: 900px;
+	margin: 20px;
+	padding: 2% 4%;
+	margin-bottom: 40px;
+}
+
+.order li {
+	font-size: larger;
+	padding: 6px 0;
+}
+
+.order li table {
+	margin-bottom: 10px;
+}
+
+.order li table td {
+	font-size: large;
+	padding: 0 40px;
+}
+
+.order #header {
+	text-decoration: underline overline;
+	font-size: small;
+}

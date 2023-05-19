@@ -1,0 +1,37 @@
+#container {
+	width: 600px;
+	background: rgba(255, 255, 255, 0.6);
+	margin-bottom: 50px;
+}
+
+#container h1 {
+    text-align: center;
+}
+
+#container form {
+    width: 500px;
+	margin: 50px;
+}
+
+#container .button {
+    font-family: Courier;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px 10px;
+    background-color: #84e2ff;
+    border: 3px solid #13005a;
+    border-radius: 6px;
+    border: 3px solid #13005a;
+    background-color: #84e2ff;
+    margin-bottom: 30px;
+}
+
+#container .button:hover {
+    background-color: #13005a;
+    color: white;
+}
+
+#err {
+	color: red;
+	position: absolute;
+}

@@ -1,0 +1,163 @@
+.menu {
+	width: 60%;
+	margin-left: 16%;
+}
+
+.menu .button {
+	font-family: Courier;
+	font-size: medium;
+	font-weight: bold;
+	padding: 1px 15px;
+	background-color: #A8E890;
+	border: 2px solid #38E54D;
+	border-radius: 10px;
+	opacity: 80%;
+	transition-duration: 0.4s;
+	margin-bottom: 10px;
+}
+
+.menu .button:hover {
+	cursor: pointer;
+	background-color: #38E54D;
+	color: white;
+	opacity: 100%;
+}
+
+.menu #qty {
+	background-color: #D1FFF3;
+	margin-bottom: 10px;
+	border: 3px solid #255461;
+	opacity: 80%;
+	padding: 0;
+	padding-left: 20%;
+}
+
+.basket {
+	position: fixed;
+	right: 0;
+	width: 20vw;
+	background: rgba(192, 203, 179, 0.9);
+	min-height: 60vh;
+	max-height: 60vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border-radius: 20px 0px;
+	border-left: 3px solid black;
+	border-radius: 20px 0 0 0;
+}
+
+.basket h1 {
+	font-size: x-large;
+	text-align: center;
+	color: black;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.basket h2 {
+    font-size: large;
+    font-family: Arial black;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.tbl-basket, .tbl-basket th, .tbl-basket td {
+	border: 0px solid black;
+}
+
+.tbl-basket {
+	width: 90%;
+	margin: 4%;
+}
+
+.tbl-basket #item {
+	width: 60%;
+	padding-left: 3%;
+}
+
+.tbl-basket #qty {
+	width: 10%;
+	text-align: center;
+}
+
+.tbl-basket #price {
+	width: 30%;
+	text-align: right;
+	padding-right: 2%;
+}
+
+.tbl-basket th {
+	font-family: Arial;
+	font-size: medium;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+	padding-top: 5%;
+}
+
+.tbl-basket td {
+	font-family: Courier;
+	font-size: medium;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+.tbl-basket tfoot {
+	border-top: 2px solid black;
+}
+
+.tbl-basket tfoot td {
+	font-family: Arial;
+	font-size: large;
+	font-weight: bold;
+}
+
+#checkout {
+	position: fixed;
+	top: 70.2vh;
+	right: 0px;
+	width: 20vw;
+	background: rgba(192, 203, 179, 0.9);
+	border-radius: 0 0 20px 0;
+	border-left: 3px solid black;
+	padding-bottom: 1%;
+}
+
+#checkout .button, .sel-tbl .button {
+	float: right;
+	font-family: Arial Black;
+	font-size: large;
+	font-weight: bold;
+	padding: 4px 12px;
+	margin-right: 5%;
+	margin-top: 10px;
+	color: white;
+	border: 4px solid black;
+	border-radius: 10px;
+	font-family: Arial Black;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#checkout .button:hover, .sel-tbl .button:hover {
+	background-color: black;
+}
+
+.sel-tbl {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(255, 255, 255, 0.9);
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.sel-tbl form {
+	width: 600px;
+	padding: 50px;
+	background-color: white;
+	border: 3px solid #2C3333;
+}

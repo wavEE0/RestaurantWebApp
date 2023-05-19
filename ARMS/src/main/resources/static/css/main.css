@@ -1,0 +1,140 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #4d957e;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-header {
+	background-image: url('../images/nav_bg.png');
+	background-size: contain;
+	margin-bottom: 30px;
+}
+
+.nav-header .logo {
+	height: 50px;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 10px;
+}
+
+.nav-header li {
+	font-size: large;
+	font-weight: bold;
+	padding: 0px 5px;
+}
+
+.nav-header li:hover {
+	background-color: #FF6663;
+}
+
+#logout input {
+	background: none;
+	font-size: large;
+	font-weight: bold;
+	padding: 8px 0px;
+	border: 0;
+	opacity: 60%;
+}
+
+.nav-header #hello {
+	position: absolute;
+	top: 15px;
+	right: 80px;
+	text-align: right;
+	font-family: Brush Script MT;
+	font-style: oblique;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.nav-header #hello span {
+	font-family: Arial Black;
+	font-size: 30px;
+	color: #093F2E;
+}
+
+.footer {
+	background-image: url('../images/nav_bg.png');
+	background-size: contain;
+	position: relative;
+	float: left;
+	width: 100%;
+	z-index: -10;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: auto;
+}
+
+.button {
+	position: relative;
+	float: right;
+	opacity: 80%;
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+	cursor: pointer;
+	color: white;
+	opacity: 100%;
+}
+
+.order {
+	list-style-type: none;
+	position: relative;
+	float: left;
+	margin: 20px;
+	padding: 20px;
+	background-color: #f3eee6;
+	border-width: 7px;
+	border-style: solid;
+	border-radius: 30px;
+	border-color: #252F31;
+	opacity: 90%;
+}
+
+.order li {
+	font-family: Courier;
+	font-size: 16px;
+}
+
+.order li#header {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+.order li table {
+	margin-top: 10px;
+	border-style: none;
+}
+
+.order li table th {
+	font-size: smaller;
+}
+
+.order li table td {
+	font-size: larger;
+	margin-top: -5px;
+}
+
+.order .button {
+	font-family: Courier;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 7px 15px;
+	margin-left: 15px;
+	background-color: #f0b8be;
+	border: 2px solid #ce1126;
+	border-radius: 10px;
+	float: right;
+}
+
+.order .button:hover {
+	background-color: #ce1126;
+}

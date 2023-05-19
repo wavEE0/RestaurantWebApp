@@ -1,0 +1,72 @@
+.tbl {
+	width: 40%;
+	float: left;
+	border: 3px solid black;
+	border-radius: 25px;
+	margin: 5%;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.tbl h1 {
+	width: 100%;
+	font-family: Lucida Console;
+	font-weight: bold;
+	font-style: oblique;
+	font-size: 30px;
+	padding: 10px;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px
+		0 #000;
+}
+
+.assign h1 {
+    color: #84e2ff;
+}
+
+.avl h1 {
+    color: #FF6663;
+}
+
+.tbl span {
+	font-family: courier;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.tbl form {
+	border-top: 3px solid black;
+	width: 100%;
+	padding: 10px;
+}
+
+.button {
+	font-family: Courier;
+	font-size: medium;
+	font-weight: bold;
+	padding: 1px 15px;
+	background-color: #A8E890;
+	border: 2px solid #38E54D;
+	border-radius: 10px;
+	opacity: 80%;
+	transition-duration: 0.4s;
+	margin-bottom: 10px;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #38E54D;
+	color: white;
+	opacity: 100%;
+}
+
+.avl .button {
+    background-color: #a8acad;
+    border: 2px solid #252F31;
+}
+
+.avl .button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    opacity: 100%;
+}

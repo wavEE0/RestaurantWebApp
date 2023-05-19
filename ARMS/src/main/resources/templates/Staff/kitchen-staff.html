@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<link rel="icon" type="image/gif" href="images/logo.png">
+<title>Kitchen Staff</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link th:rel="stylesheet"
+	th:href="@{/webjars/bootstrap/css/bootstrap.min.css} " />
+<link th:rel="stylesheet" th:href="@{/css/main.css}" />
+<link th:rel="stylesheet" th:href="@{/css/kitchen-staff.css}" />
+</head>
+<body>
+
+	<nav
+		class="nav-header navbar navbar-expand-xl navbar-light justify-content-end aligns-items-end">
+		<div class="container-fluid">
+			<a href="/"> <img th:src="@{/images/logo.png}"
+				class="logo d-inline-block align-text-top" />
+			</a> <a class="navbar-brand" href="/">OAXACA</a>
+			<button class="navbar-toggler" type="button"
+				data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<form id="logout" action="" onSubmit="window.location.reload()"
+							method="post">
+							<input type="hidden" name="logout" th:value="${true}"> <input
+								type="submit" value="Log Out" />
+						</form>
+					</li>
+				</ul>
+			</div>
+			<h3 id="hello">
+				Hello, <span th:text="${name}"></span>
+			</h3>
+		</div>
+	</nav>
+
+        <h2>Confirmed Orders</h2>
+	<div id="container" class="d-flex flex-wrap">
+		<ul class="order confirmed" th:each="order : ${confirmedOrders}">
+			<li th:text="'Order No: ' + ${order.getOrderNo()}">Order No</li>
+			<li th:text="'Time Received: ' + ${order.getTimeReceived()}">Time
+				Received</li>
+			<li>
+				<table>
+					<thead>
+						<tr>
+							<th>Order details:</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr th:each="item : ${order.getBasket().getItemList()}">
+							<td th:text="${item.getName()}">Item</td>
+							<td th:text="'x' + ${order.getBasket().getQty(item)}">Qty</td>
+						</tr>
+					</tbody>
+				</table>
+			</li>
+			<li>
+				<form action="#" th:action="@{/kitchen-staff}" method="post">
+					<input type="hidden" name="readyOrder"
+						th:value="${order.getOrderNo()}"> <input class="button"
+						type="submit" value="Ready">
+				</form>
+			</li>
+		</ul>
+	</div>
+	<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+	<script th:src="@{/webjars/popper.js/popper.min.js}"></script>
+	<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+</body>
+</html>
+

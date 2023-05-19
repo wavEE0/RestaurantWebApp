@@ -1,0 +1,47 @@
+#waiter-nav .nav-tabs {
+	border-bottom: 5px solid white;
+}
+
+#waiter-nav .nav-item a {
+	font-family: Lucida Console;
+	font-style: italic;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+}
+
+#waiter-nav .nav-item a span {
+	border-radius: 50%;
+	padding: 4px 10px;
+	background-color: white;
+	color: black;
+	text-shadow: none;
+}
+
+#waiter-nav .nav-tabs a:hover {
+	background-color: #AAE3E2;
+	color: white;
+}
+
+#waiter-nav a.active {
+	background-color: #FF6663;
+	font-weight: bold;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px
+		0 #000;
+}
+
+.tab-pane {
+	position: absolute;
+	float: left;
+	width: 100%;
+	background-color: #4d957e;
+}
+
+#cancel {
+	background-color: #a8acad;
+	border: 2px solid #252F31;
+}
+
+#cancel:hover {
+	background-color: #252F31;
+}

@@ -1,0 +1,263 @@
+body{
+    
+    background-color: rgba(247,247,247,255);
+    font-family: Tahoma, sans-serif;
+}
+p{
+    margin: 0;
+}
+h1#top{
+    background-color: none;
+    color: rgb(193, 3, 3);
+    text-align: center;
+    font-size: 60px;
+}
+/* div#heading ul{
+    display: inline-block;
+    height: 3ch;
+    padding-left: 0px;
+    position: relative;
+    margin: 0px; 
+    
+}
+div#heading ul#quantity{
+    margin-left: 37rem;
+  
+}
+div#heading ul#productList{
+    position: relative;left: 5rem;
+}
+div#heading ul#price{
+    margin-left: 2.1rem;
+} */
+
+/* div#heading ul li{
+    padding-top: auto;padding-bottom: auto;
+} */
+.main{
+    margin-left: 5rem;margin-right: 5rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100% ;/*main class is inside body container so 80% of body*/
+    /* width: 100%; dont need to do this its 100% by default*/
+    font-size: 1rem;
+    /* background-color: rgb(29, 134, 225); */
+}
+.main .product_info{
+    
+    
+
+}
+.list_item{
+    background-color: rgba(247,247,247,255);
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 0.75fr 0.75fr 0.5fr;
+}
+.product_info img{
+    object-fit: fill;
+    border-bottom: solid;border-color: rgba(0, 0, 0, 0.3);border-width: 0.1rem;
+    width: 20rem;
+}
+.product_info p{
+   border-bottom: solid;border-color: rgba(0, 0, 0, 0.3);border-width: 0.1rem;
+   width: 15ch;
+   background-color: rgba(247,247,247,255);
+   padding: 3rem;
+   color: black;
+   
+}
+.product_info .quantity{
+    min-width: 5rem;
+    border-bottom: solid;border-color: rgba(0, 0, 0, 0.3);border-width: 0.1rem;
+   background-color:rgba(247,247,247,255);
+   
+}
+.product_info  .unit_price{
+    min-width: 3rem;
+    border-bottom: solid;border-color: rgba(0, 0, 0, 0.3);border-width: 0.1rem;
+    background-color:rgba(247,247,247,255);
+   
+}
+.product_info .cross{
+    min-width: 2rem;
+    border-bottom: solid;border-color: rgba(0, 0, 0, 0.3);border-width: 0.1rem;
+    background-color: rgba(247,247,247,255);
+    margin-right: 2rem;
+}
+
+.main .checkout_info{
+    min-width: 30rem;
+    background-color: rgb(174, 169, 169);
+    border-radius: 10px;
+    margin-bottom: 4rem ;
+    min-height: 35rem;
+}
+#charges ul{
+    position: relative;top: 15rem;
+    /* width: 15ch; */
+    height: 1.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0; 
+}
+
+#charges ul li#LI1{
+    /* background-color: blue; */
+    width: 10rem;
+}
+#charges ul li#LI2{
+    /* background-color: yellow; */
+    margin-left: 10rem;
+    width: 0.7rem;
+}
+#charges ul li#LI3{
+    margin-left: 0;
+}
+#charges ul#total{
+    font-size: medium;font-weight: 600;
+}
+.checkout_info button{
+    position: relative;top: 20rem;left: 6rem;
+    padding-left: 3rem;padding-right: 3rem;padding-top: 1rem;padding-bottom: 1rem;
+    background-color: rgb(167,34,23);
+    border: none;border-radius: 3px;
+    font-size: medium;font-weight: 600;
+    animation-duration: 1s;
+}
+.checkout_info button:hover{
+    padding-left: 3.2rem;padding-right: 3.2rem;padding-top: 1.2rem;padding-bottom: 1.2rem;
+    transform: translate(-.2rem,-.2rem);
+
+    
+}
+.checkout_info button:active{
+    opacity: 0.7;
+}
+.product_info button{
+    border: solid;border-color: rgba(201,200,195,255);border-width: 1px;
+    border-radius: 10px;
+    background-color: rgba(247,247,247,255);
+    color:(201,200,195,255);
+    display: inline;
+}
+div.product_info div div.value_center{
+    margin: 0;
+   position: relative;               
+   top: 50%;                         
+   transform: translate(0, -50%);
+text-align: center;
+}
+.product_info button:active{
+    background-color: gray;
+}
+.popup_menu{
+    display: none;
+    position: fixed;top: 10rem;
+    z-index: 1;
+    height: 50%;width: 80%;
+    margin-left: auto;margin-right: auto;
+    background-color: black;
+    border-radius: 15px;
+}
+#popup button#cross{
+    position: relative;left: 95%;
+}
+#popup p{
+    display: inline;
+}
+#popup input{
+    display: inline-block;
+}
+
+/* css by dev for nav bar */
+/* css by dev for nav bar */
+/* css by dev for nav bar */
+/* css by dev for nav bar */
+/* css by dev for nav bar */
+head {
+    font-family: Tahoma, sans-serif;
+   }
+  
+  
+   img.logo {
+    width:310px;
+    height: 55px;
+    margin-right: 10px;
+    margin-top: 10px;
+   }
+
+  
+   h2 {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    color: rgb(167,34,23);
+   }
+  
+   p {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    font-size: 20px;
+   }
+  
+  ul {
+    height: 75px;
+    list-style-type: none;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -10px;
+    
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+    
+  li {
+    float: left;
+  }
+    
+  li a {
+    height: 60px;
+    display: block;
+    color: rgb(233, 238, 230);
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+    
+  li a:hover:not(.active) {
+    background-color: rgb(59, 59, 59);
+  }
+    
+  .active {
+    background-color: rgb(238,62,56);
+  }
+  
+  .basket {
+    float: right;
+    background-color: rgb(31, 31, 31);
+  }
+  
+  div.footer {
+    color: black;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  ul.menue {
+    color: rgb(233, 238, 230);
+    font-size: 24px;
+    display: block;
+    width: 100%;
+    height: 500px;
+  }
+  
+  li.menue {
+    padding-top: 20px;
+  }

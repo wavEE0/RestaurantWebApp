@@ -1,0 +1,46 @@
+h1 {
+	font-family: Lucida Console;
+	font-weight: bold;
+	font-style: oblique;
+	text-align: center;
+	font-size: 35px;
+	color: #FF6663;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px
+		0 #000;
+}
+
+form {
+	padding-top: 30px;
+}
+
+form label, form input, form button {
+	float: left;
+	height: 50px;
+	border: 5px solid blue;
+	padding: 10px;
+	margin: 10px;
+}
+
+.alert {
+	position: relative;
+	float: left;
+	margin: 30px;
+}
+
+.order {
+	width: 80%;
+}
+
+.order li {
+	font-size: larger;
+}
+
+.order li table td {
+	font-size: larger;
+	padding-right: 25px;
+}
+
+.order #header {
+	text-decoration: underline overline;
+	padding-top: 20px;
+}

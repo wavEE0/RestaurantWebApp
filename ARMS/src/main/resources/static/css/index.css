@@ -1,0 +1,105 @@
+#ad {
+    width: 100%;
+    max-height: 900px;
+    overflow: hidden;
+    margin-top: -30px;
+}
+
+#ad img {
+    width: 100%;
+}
+
+#ad h3 {
+    position: absolute;
+    color: white;
+    padding-top: 20%;
+    padding-right: 10%;
+}
+
+#ad h3 button {
+    margin-top: 20px;
+    border: 3px solid;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#about {
+    width: 80%;
+    height: 40vh;
+    border: 10px solid #FF8C7D;
+    margin: 100px 0px;
+}
+
+#about img {
+    height: 100%;
+}
+
+#about p {
+    font-size: large;
+    padding: 5%;
+    line-height: 3vw;
+    color: white;
+}
+
+#about span {
+    font-size: x-large;
+    padding-left: 10%;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#review {
+    margin-left: 20%;
+    background: rgba(255, 235, 173, 0.3);
+    border: 10px solid #FFF6BF;
+    border-right: none;
+    font-family: Tahoma;
+    width: 80%;
+    font-family: Tahoma;
+}
+
+#review .carousel-item h3 {
+    text-align: center;
+    padding: 2%;
+}
+
+#review .carousel-item .row {
+    width: 100%;
+    margin: 0% 5%;
+    margin-bottom: 2%;
+}
+
+#review .carousel-item img {
+    width: 20%;
+    height: auto;
+}
+
+#review .carousel-item p {
+    font-size: large;
+    padding: 1%;
+    line-height: 2.5vw;
+}
+
+#best_sellers {
+    width: 80%;
+    background: rgba(149, 189, 255, 0.3);
+    border: 10px solid #95BDFF;
+    border-left: none;
+    margin: 100px 0px;
+    text-align: center;
+}
+
+#best_sellers table {
+    width: 92%;
+    margin: 4%;
+}
+
+#best_sellers table th {
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+#best_sellers img {
+    height: 20vh;
+}

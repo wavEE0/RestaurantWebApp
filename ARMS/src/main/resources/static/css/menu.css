@@ -1,0 +1,136 @@
+#container {
+	height: 100%;
+	width: 100%;
+}
+
+.menu-nav {
+	position: fixed;
+	left: 0px;
+	width: 15%;
+	border-right: 3px solid black;
+	border-radius: 0px 20px;
+	background: rgba(192, 203, 179, 0.9);
+}
+
+.filter-nav {
+	position: fixed;
+	left: 0px;
+	top: 350px;
+	width: 15%;
+	border-right: 3px solid black;
+	border-radius: 0px 20px;
+	background: rgba(192, 203, 179, 0.9);
+}
+
+.filter-nav h1, .menu-nav h1 {
+	font-size: x-large;
+	text-align: center;
+	width: 100%;
+	color: black;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.filter-nav .content {
+	width: 10vw;
+	margin: 20px 0;
+}
+
+.filter-nav .content b {
+	display: inline-block;
+	width: 100%;
+}
+
+.filter-nav .content input {
+	margin-left: 5%;
+}
+
+.filter-nav .content .button {
+	float: right;
+	background-color: #84e2ff;
+	border: 3px solid #13005a;
+	border-radius: 10px;
+	margin: 10px 0;
+	padding: 3px 8px;
+	opacity: 80%;
+	transition-duration: 0.4s;
+}
+
+.filter-nav .content .button:hover {
+	cursor: pointer;
+	background-color: #13005a;
+	color: white;
+	opacity: 100%;
+}
+
+.menu {
+	position: relative;
+	float: left;
+	width: 65%;
+	margin-left: 16%;
+	border: 0px solid red;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+}
+
+.menu h1 {
+	font-size: x-large;
+	font-style: oblique;
+	text-align: left;
+	margin-top: 15px;
+	color: white;
+	padding-left: 7%;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%,
+		rgba(19, 0, 90, 1) 17%, rgba(6, 141, 199, 0.8723897911832946) 54%,
+		rgba(0, 212, 255, 0) 100%);
+}
+
+.item {
+	width: auto;
+	max-width: 90%;
+	background: rgba(67, 66, 66, 0.4);
+	margin: 10px 5%;
+	color: white;
+	border-radius: 0px 20px;
+}
+
+.item img {
+	max-height: 155px;
+	max-width: 95%;
+	margin-left: 15%;
+}
+
+.item h2 {
+	text-align: center;
+	padding: 4%;
+	font-size: x-large;
+	color: white;
+	margin: 0;
+}
+
+.item h3 {
+	text-align: center;
+	padding: 1%;
+	font-size: medium;
+	font-style: italic;
+	color: white;
+}
+
+.item p {
+	text-align: center;
+	padding: 1%;
+	font-size: small;
+	color: white;
+	margin: 0;
+}
+
+.item h4 {
+	text-align: right;
+	padding: 4%;
+	font-size: large;
+}
+
+.footer {
+	margin-top: 50px;
+}

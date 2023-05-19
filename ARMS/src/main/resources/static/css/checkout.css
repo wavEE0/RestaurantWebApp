@@ -1,0 +1,158 @@
+h1 {
+	font-family: Lucida Console;
+	font-weight: bold;
+	font-style: oblique;
+	text-align: center;
+	font-size: 35px;
+	color: #FF6663;
+	text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px
+		0 #000;
+}
+
+#container {
+	width: 90vw;
+	margin: 2vh 5vw;
+}
+
+#details {
+	width: 36vw;
+	min-width: 700px;
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	background: rgba(192, 203, 179, 0.9);
+	padding: 2vw;
+}
+
+#details h2 {
+	font-size: x-large;
+	padding-bottom: 10px;
+}
+
+label, input {
+	display: block;
+	clear: both;
+}
+
+.form-check label, .form-check input {
+	display: inline;
+	clear: none;
+	font-weight: bold;
+}
+
+#details input::-webkit-outer-spin-button, #details input::-webkit-inner-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+#details input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.button {
+	font-family: Courier;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 3px 10px;
+	background-color: #84e2ff;
+	border: 3px solid #13005a;
+	border-radius: 6px;
+	border: 3px solid #13005a;
+	background-color: #84e2ff;
+}
+
+.button:hover {
+	background-color: #13005a;
+	color: white;
+}
+
+.basket_final {
+	width: 40vw;
+	min-width: 700px;
+	min-height: 400px;
+	float: left;
+	margin-left: 50px;
+	background: rgba(192, 203, 179, 0.9);
+	border-radius: 20px;
+}
+
+.basket_final h2 {
+	font-size: x-large;
+	text-align: center;
+	color: black;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.basket_final h3 {
+	font-size: large;
+	font-family: Arial black;
+	font-style: italic;
+	text-align: center;
+	color: white;
+	background-color: black;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.tbl-basket th {
+	padding-top: 1%;
+}
+
+.tbl-basket td {
+	font-size: large;
+	padding-bottom: 2%;
+}
+
+.tbl-basket #item {
+	width: 40%;
+}
+
+.tbl-basket #qty {
+	width: 10%;
+}
+
+.tbl-basket #price {
+	width: 25%;
+	border-right: 2px solid black;
+}
+
+.tbl-basket #update {
+	width: 30%;
+	text-align: center;
+}
+
+.tbl-basket #remove {
+	width: 5%;
+	text-align: right;
+}
+
+.tbl-basket #update .button {
+	border-radius: 500px;
+	font-size: x-large;
+	padding: 0px 5px;
+	line-height: 10px;
+}
+
+.tbl-basket #remove .button {
+	background: none;
+	border: none;
+	padding: 0;
+	opacity: 50%;
+}
+
+.tbl-basket #remove .button:hover {
+	opacity: 100%;
+}
+
+#bt_order .button {
+    float: right;
+    margin-right: -25px;
+    margin-bottom: -100px;
+    font-size: medium;
+    font-style: oblique;
+    color: #13005a;
+    border: 0px solid blue;
+    background: none;
+}
